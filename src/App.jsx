@@ -3,9 +3,6 @@ import Dice from "./components/Dice"
 import { nanoid } from "nanoid"
 import ReactConfetti from "react-confetti"
 
-//Extra credit features : 
-//add best time (time tracker) to local storage
-
 function App() {
   const[dice, setDice] = useState(allNewDice())
   const[tenzies, setTenzies] = useState(false)
