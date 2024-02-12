@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+.app-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: #F5F5F5;
+}
+
+.game-container {
+  height: 70vh;
+  width: 500px;
+  padding: 30px 20px;
+  background-color: #2B283A;
+  border-radius: 10px;
+}
+
+.tenz-container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+  height: 100%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 34px 35px;
+}
+
+.dice-container {
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  gap: 18px;
+  height: 35%;
+}
+
+.dice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: pointer;
+  height: 60px;
+  width: 60px;
+}
+
+.btn {
+  font-family: 'Karla', sans-serif;
+  color: white;
+  margin-top: 17px;
+  background-color: #5035FF;
+  align-self: center;
+  padding: 10px 35px;
+  border-radius: 4px;
+  font-size: 17px;
+  font-weight: 700;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.btn:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+
+.dot-container {
+  display: grid;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+}
+
+.dot {
+  background-color: #2B283A;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+}

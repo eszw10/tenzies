@@ -1,8 +1,10 @@
-# React + Vite
+# Game instruction
+To play the game you have to click the desired dice that has the same value (indicated by the number of the dots).
+If there is no other dice that has the same value, click roll to randomize a new batch of dice
+The winner is the one who click the dice with the same value faster than the other.
+*The best time to complete the game will be stored in local storage.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+HAVE FUN PLAYING
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I created This game project because Bob ziroll from scrimba team gave me this idea and urge me to add some features.
+so, thank you bob! 
