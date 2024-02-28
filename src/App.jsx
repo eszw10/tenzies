@@ -65,7 +65,6 @@ function App() {
     if (tenzies) {
       setDice(allNewDice());
       setTenzies(false);
-      setRollTracker(0);
       setUserTime(null);
     } else {
       setDice((prevDices) =>
@@ -79,7 +78,6 @@ function App() {
               }
         )
       );
-      setRollTracker((prev) => prev + 1);
       setStartTime((prevTime) => {
         if (prevTime.isClicked) {
           return {
